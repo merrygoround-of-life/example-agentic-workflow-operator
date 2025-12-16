@@ -1,0 +1,9 @@
+apiVersion: workflow.plantrue.com/v1alpha1
+kind: AgenticWorkflow
+metadata:
+  labels:
+    app.kubernetes.io/name: example-agentic-workflow-operator
+    app.kubernetes.io/managed-by: kustomize
+  name: agenticworkflow-sample
+spec:
+  # TODO(user): Add fields here

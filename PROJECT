@@ -6,7 +6,7 @@ cliVersion: 4.10.1
 domain: plantrue.com
 layout:
 - go.kubebuilder.io/v4
-projectName: example-agentic-workflow-operator
+projectName: agentic-workflow-operator
 repo: github.com/merrygoround-of-life/agentic-workflow-operator
 resources:
 - api:

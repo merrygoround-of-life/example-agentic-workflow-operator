@@ -29,6 +29,15 @@ Make sure you have the proper permission to the registry if the above commands d
 make install
 ```
 
+**Create the required secret for API keys:**
+
+```sh
+kubectl create secret generic llm-api-keys \
+  --from-literal=openai-api-key=your-openai-key \
+  --from-literal=anthropic-api-key=your-anthropic-key \
+  --from-literal=google-api-key=your-google-key
+```
+
 **Deploy the Manager to the cluster with the image specified by `IMG`:**
 
 ```sh
